@@ -1,31 +1,26 @@
-# Basic example of ver 0.2 is here http://motyar.github.io/firefly/example.html 
+MakeItRain.js
+=======
+The Jquery plugin you've been waiting for your whole life. Make it rain cash on any website.
 
-0.3 Improvments:
-- The plugin no longer uses images for sparks (should load faster and gives the freedom to change the color without modifying the image)
-- properties minPixel and maxPixel used to specify the min and max size of the fireflies
-- color property used to specify the color of the fireflies
 
-Example:
+Preview:
 
-$.firefly({
-	color: '#fff',
-	minPixel: 1,
-	maxPixel: 3,
-	total : 65,
-	on: 'header'
-});
+![Example](http://i.imgur.com/IJTbFmr.gif)
+
+
+####**[Live Demo](http://dboudro.github.io/MakeItRain.js/)**
 
 
 
-Here are few sites using it. ( Please let me know if you are using it, I will add a link here)
+### Adaping the Current Code
 
-http://www.yootheme.com/demo/wordpress/radiance
+Of course, raining money is simply one application of this code.  I have [another website](http://Dylanboudro.com) that makes it snow to celebrate winter 2014.
 
-http://www.itsfirefly.com/
+How to
+=====
 
-http://www.quazarwebdesign.com/
+I've set up 'control points' in the main javascript file.  These control points give easy access to variables such as:
+- where the items start falling from (x and y coords)
+- speed items fall at
 
-http://www.haelu.co.nf/
 
-
-Documentation: http://www.backslash.gr/content/blog/webdevelopment/10-jquery-firefly-plugin
