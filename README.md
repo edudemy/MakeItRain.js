@@ -1,6 +1,6 @@
 MakeItRain.js
 =======
-The Jquery plugin you've been waiting for your whole life. Make it rain cash on any website.
+*The Jquery plugin you've been waiting for your whole life. Make it rain cash on any website.*
 
 
 Preview:
