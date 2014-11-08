@@ -1,11 +1,11 @@
 MakeItRain.js
 =======
-*The JQuery plugin you've been waiting for your whole life. Make it rain cash on any website.*
+*The JQuery plugin you've been waiting for your whole life.  **Make it rain cash on any website.***
 
 
 Preview:
 
-![Example](http://i.imgur.com/IJTbFmr.gif)
+![Example](http://i.imgur.com/MeNXlWS.gif)
 
 
 ####**[Live Demo](http://dboudro.github.io/MakeItRain.js/)**
@@ -14,20 +14,36 @@ Preview:
 
 ### Adapting the Current Code
 
-Make it rain money is simply one application of this plugin.    For example, I have [another website](http://Dylanboudro.com) that makes it snow to celebrate winter 2014.  Creativity encouraged! 
+You can easily substitute falling money for the image of your choice.
+ [This Site](http://Dylanboudro.com) uses MakeItRain.js to make it snow.  Simply replace 'money.png' (as seen below) with the image of your choice.
 
 How to
 =====
 
-I've set up 'control points' in the main javascript file.  These control points give easy access to variables such as:
-- where the items start falling from (x and y coords)
-- speed items fall at
+1. Create an html element with the id "make-it-rain"
 
-Gallery
+2. put the following code into an your html page
+
+```
+<script src="js/MakeItRain.js"></script>
+			<script>
+			$(document).ready(function(){
+			$("#make-it-rain").click(function(){
+			$(document).ready(function() {
+					$.MakeItRain({images : ['images/money.png'],total : 200});
+			});
+			});
+			});
+			</script>
+```
+
+3.  use the control points in the MakeItRain.js file to control the behavior of the money.
+
+Sites Using MakeItRain.js
 ==========
-[My Portfolio](http://Dylanboudro.com)
-
- Please let me know any sites you have used this plugin on!  I'd love to hear about your application, or even list them below if you'd like.
+*More Coming Soon*
+- [My Portfolio](http://Dylanboudro.com)
+- [Your Website]()
 
 
 

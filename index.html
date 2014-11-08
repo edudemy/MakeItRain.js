@@ -1,99 +1,62 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="jquery-2.1.1.js"></script>
 		<link rel="shortcut icon" href="images/favicon.ico">
-		<title> MakeItRain.js</title>
+		<link rel="text/css" href="stylesheet.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="stylesheets/component.css" />
+		<link rel="stylesheet" href="fonts/font-awesome.min.css">
+		<script src="js/modernizr.custom.js"></script>
+		<script src="js/jquery-2.1.1.js"></script>
 	</head>
-	<style>
-
-			/* * * * * * * * * * * * * * * * * * SETUP * * * * * * * * * * * * * * * * */
-
-		@font-face {
-			font-family: Roboto Light;
-			src: url(Roboto-Light.ttf);
-		}
-		
-		body {
-			background: #3B4647;
-		}
-		/* * * * * * * * * * * * * * * * * CONTENT START * * * * * * * * * * * * * * * */
-		#make-it-rain {
-			display: table;
-			text-align: center;	
-			background-color: #424E4F;
-			margin: 301px auto 0 auto;
-			padding: 5px 5px;
-			font-size: 20px;
-			font-family: Roboto Light;
-			color: snow;
-			opacity: .5;
-		}
-		#make-it-rain:hover {
-			background-color: #435F5F;
-			cursor: pointer;
-			opacity: 1;
-		}
-
-		#github-buttons {
-			margin-top: 60px;
-			margin-left: calc(50vw - 175px);
-		}
-		
-		#chrome {
-			display: table;
-			text-align: center;	
-			margin: 35vh auto 10px auto;
-			padding: 2px 5px;
-			font-family: Proxima Nova Light;
-			font-size: 12px;
-			color: snow;
-			opacity: .7;
-		}
-		#chrome-icon {
-			padding-left: 2px;
-		}
-	</style>
 	<body>
-		
-			
-			<!-- - - - - - - - - - - - - - - - - - - - GITHUB BUTTONS - - - - - - - - - -  - - - - - - - - - -->
-			<div id="github-buttons">
+	<!-- - - - - - - - - - - - - - - - - - - GITHUB BUTTONS - - - - - - - - - - - - - - - - - - - -->
+	<div id="github-buttons">
 			<iframe src="http://ghbtns.com/github-btn.html?user=Dboudro&repo=MakeItRain.js&type=watch&count=false" height="30" width="118" frameborder="0" scrolling="0" style="width:118px; height: 30px;" allowTransparency="true"></iframe>
 
 			<iframe src="http://ghbtns.com/github-btn.html?user=Dboudro&repo=MakeItRain.js&type=fork&count=false" height="30" width="118" frameborder="0" scrolling="0" style="width:118px; height: 30px;" allowTransparency="true"></iframe>
 
 			<iframe src="http://ghbtns.com/github-btn.html?user=Dboudro&type=follow" height="30" width="168" frameborder="0" scrolling="0" style="width:168px; height: 30px;" allowTransparency="true"></iframe>
-</div>
-
-<h1 id="make-it-rain">Make it Rain yo!</h1>
+			</div>
+		<div id="all-content">
+			<div id="main-title-container">
+				<h1 id="main-title"> MakeItRain.js</h1>
+			</div>
+			
+			<h1 id="projects-title">by Dylan Boudro</h1>
+			<div id="project-content-container">
+				<section class="color-4">
+					<nav class="portfolio-projects">
+						<a class="face-button" id="make-it-rain" href="#">
+							<div class="face-primary">
+								<i class="fa fa-money"></i>
+								Make It Rain
+							</div>
+							
+							<div class="face-secondary">
+								
+								$ CLICK HERE $
+							</div>
+						</a>
+						
+					</nav>
+				</section>
+	
+			</div>
 			<br></br>
-			<p id="chrome">Best Viewed in <img src="images/chrome.png" id="chrome-icon"></p>
-				
-			<!-- - - - - - - - - - - -  - - - - JAVASCRIPT - - - - - - - - - - - - - - - -->
-			<script src="MakeItRain.js"></script>
-
-
-
-
-
-
-<script>
-
-$(document).ready(function(){
-  $("#make-it-rain").click(function(){
-
-   $(document).ready(function() {
-	$.MakeItRain({images : ['images/money.png'],total : 200}); 	
-});
-  });
-});
-
-
-
-
-
-
-</script>
+			<p id="chrome">Best Viewed in <img src="images/chrome.png"/ id="chrome-icon"></p>
+			<div id="rain-block"> </div>
+			<!-- - - - - - - - - - - - - - - - - - - - - JAVASCRIPT - - - - - - - - - - - - - - - - - - - - -->
+			<script src="js/MakeItRain.js"></script>
+			<script>
+			$(document).ready(function(){
+			$("#make-it-rain").click(function(){
+			$(document).ready(function() {
+					$.MakeItRain({images : ['images/money.png'],total : 200});
+			});
+			});
+			});
+			</script>
 		</body>
 	</html>

@@ -1,0 +1,112 @@
+/* * * * * * * * * * * * * * * * * * SETUP * * * * * * * * * * * * * * * * */
+@font-face {
+font-family: Roboto Bold;
+src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+font-family: Roboto;
+src: url(../fonts/Roboto-regular.ttf);
+}
+@font-face {
+font-family: Roboto Light;
+src: url(../fonts/Roboto-Light.ttf);
+}
+@font-face {
+font-family: Roboto Thin;
+src: url(../fonts/Roboto-Thin.ttf);
+}
+body {
+background: #3B4647;
+}
+/* * * * * * * * * * * * * * * * * CONTENT START * * * * * * * * * * * * * * * */
+#main-title {
+position: relative;
+font-size: 2.7em;
+font-family: Roboto;
+color: #FFF;
+font-spacing: 2;
+text-align: center;
+margin-top: 25vh;
+margin-bottom: 20px;
+z-index: 100;
+}
+#projects-title {
+position: relative;
+width: 300px;
+font-size: 16px;
+font-family: Roboto Thin;
+letter-spacing: 4px;
+background: rgba(50, 50, 50, 0.3);
+color: snow;
+padding: 6px 2px 6px 2px;
+margin: 0 auto;
+text-align: center;
+z-index: 100;
+}
+#project-content-container {
+z-index: 5;
+border: 0px solid rgba(125, 125, 125, 0.3);
+margin: 15px auto 0 auto;
+z-index: 100;
+}
+/* * * * * * * * * * * * * * * * * PROJECT EFFECTS * * * * * * * * * * * * * * * */
+.portfolio-projects a {
+line-height: 44px;
+font-size: 12.5px;
+display: block;
+width: 300px;
+text-align: center;
+font-family: Roboto;
+z-index: 100;
+margin: 10px auto;
+}
+
+.face-button {
+$height: 64px;
+$accentColor: #00BF89;
+height: $height;
+display: inline-block;
+border: 3px solid $accentColor;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+text-align: center;
+text-decoration: none;
+color: $accentColor;
+overflow: hidden;
+.icon {
+margin-right: 6px;
+}
+.face-primary,
+.face-secondary {
+display: block;
+padding: 0 32px;
+line-height: $height;
+transition: margin .4s;
+}
+.face-primary {
+background-color: $accentColor;
+color: #fff;
+}
+&:hover .face-primary {
+margin-top: -$height;
+}
+}
+/* * * * * * * * * * * * * * * * * SOCIAL ICONS * * * * * * * * * * * * * * * */
+#github-buttons {
+margin-top: 40px;
+margin-left: calc(50vw - 175px);
+}
+#chrome {
+display: table;
+text-align: center;
+margin: 25vh auto;
+padding: 2px 5px;
+font-family: Roboto Light;
+font-size: 12px;
+color: snow;
+opacity: .7;
+}
+#chrome-icon {
+padding-left: 2px;
+}
