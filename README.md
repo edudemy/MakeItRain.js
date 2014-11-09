@@ -20,9 +20,9 @@ You can easily substitute falling money for the image of your choice.
 How to
 =====
 
-1. Create an html element with the id "make-it-rain"
+1) Create an html element with the id "make-it-rain"
 
-2. put the following code into an your html page
+2) put the following code into an your html page
 
 ```
 <script src="js/MakeItRain.js"></script>
@@ -37,7 +37,7 @@ How to
 			</script>
 ```
 
- 3.  use the control points in the MakeItRain.js file to control the behavior of the money.
+ 3)  use the control points in the MakeItRain.js file to control the behavior of the money.
 
 Sites Using MakeItRain.js
 ==========
