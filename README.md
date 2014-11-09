@@ -37,7 +37,7 @@ How to
 			</script>
 ```
 
-3.  use the control points in the MakeItRain.js file to control the behavior of the money.
+ 3.  use the control points in the MakeItRain.js file to control the behavior of the money.
 
 Sites Using MakeItRain.js
 ==========
