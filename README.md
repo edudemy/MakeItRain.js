@@ -44,7 +44,11 @@ Sites Using MakeItRain.js
 *More Coming Soon*
 - [My Portfolio](http://Dylanboudro.com)
 - [Your Website]()
+- 
 
+To Do
+==========
 
+o Reimplement with Velocity.js
 
 
