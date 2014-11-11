@@ -81,6 +81,58 @@ body {
   .face-button:hover .face-primary {
     margin-top: -64px; }
 
+  .contribution {
+    background: #2D3434;
+    padding: 5vh 0;
+    margin: 5vh 0;
+  }
+
+  .contribution .contribution-container {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .contribution h3 {
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+  }
+
+  .contribution ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .contribution ul:after {
+    display: block;
+    height: 0px;
+    content: ".";
+    color: transparent;
+    float: none;
+    clear: both;
+  }
+
+  .contribution ul > li {
+    float: left;
+  }
+
+  .contribution ul > li > a {
+    color: #ccc;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 12px 12px 40px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.25);
+    transition: all .5s;
+    font-size: 12px;
+    position: relative;
+  }
+
+  .contribution ul > li > a:hover {
+    background: rgba(0, 0, 0, 0.10);
+  }
+
+
 /* * * * * * * * * * * * * * * * * SOCIAL ICONS * * * * * * * * * * * * * * * */
 #github-buttons {
   margin-top: 40px;
@@ -89,7 +141,7 @@ body {
 #chrome {
   display: table;
   text-align: center;
-  margin: 25vh auto;
+  margin: 5vh auto;
   padding: 2px 5px;
   font-family: Roboto Light;
   font-size: 12px;
@@ -98,5 +150,15 @@ body {
 
 #chrome-icon {
   padding-left: 2px; }
+
+  .button-icon {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 0;
+    left: 12px;
+    bottom: 0;
+    margin: auto;
+  }
 
 /*# sourceMappingURL=stylesheet.css.map */

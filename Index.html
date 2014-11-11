@@ -24,7 +24,7 @@
 				<h1 id="main-title"> MakeItRain.js</h1>
 			</div>
 			
-			<h1 id="projects-title">by Dylan Boudro</h1>
+			<h1 id="projects-title"><img src="https://avatars3.githubusercontent.com/u/4648917?v=3&s=20" class="button-icon">By Dylan Boudro</h1>
 			<div id="project-content-container">
 				<section class="color-4">
 					<nav class="portfolio-projects">
@@ -44,8 +44,16 @@
 				</section>
 	
 			</div>
-			<br></br>
+			<div class="contribution">
+				<div class="contribution-container">
+					<h3>Contributors</h3>
+					<ul>
+						<li><a href="http://github.com/dominikbiedebach" target="_blank"><img class="button-icon" src="https://avatars1.githubusercontent.com/u/6538827?v=3&s=20"> Dominik Biedebach</a></li>
+					</ul>
+				</div>
+			</div>
 			<p id="chrome">Best Viewed in <img src="images/chrome.png"/ id="chrome-icon"></p>
+			
 			<div id="rain-block"> </div>
 			<!-- - - - - - - - - - - - - - - - - - - - - JAVASCRIPT - - - - - - - - - - - - - - - - - - - - -->
 			<script src="js/MakeItRain.js"></script>
@@ -53,7 +61,7 @@
 			$(document).ready(function(){
 			$("#make-it-rain").click(function(){
 			$(document).ready(function() {
-					$.MakeItRain({images : ['images/money.png'],total : 200});
+					$.MakeItRain({images : ['images/money.png'],total : 50});
 			});
 			});
 			});
